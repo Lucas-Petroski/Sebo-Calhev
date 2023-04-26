@@ -3,15 +3,15 @@ a:link {
 }
 
 a:visited {
-  color: rgb(148, 138, 3);
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
-  color: rgb(183, 4, 4);
+  color: rgb(0, 0, 0);
 }
 
 a:active {
-  color: rgba(252, 248, 50, 0.842);
+  color: rgba(255, 0, 0, 0.842);
 }
 
 button {
@@ -23,14 +23,14 @@ a {
 }
 
 h1 {
-  background-color: rgb(110, 0, 0);
+  background-color: rgb(80, 0, 60);
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 tr {
-  background-color: rgb(114, 0, 0);
+  background-color: rgb(80, 0, 60);
 }
 
 th {
@@ -38,7 +38,7 @@ th {
 }
 
 thead {
-  background-color: rgb(79, 0, 0);
+  background-color: rgb(80, 0, 60);
 }
 
 table {
@@ -46,11 +46,14 @@ table {
   border-radius: 5px;
   border: 2;
   border-spacing: 10;
+  margin: 10px;
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(99, 0, 69);
   color: white;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 #h {
